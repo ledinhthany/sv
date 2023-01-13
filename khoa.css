@@ -1,0 +1,22 @@
+.menu{
+padding-top: 1%;
+}
+.thong-tin, a{
+    text-decoration: none;
+    text-align: center;    
+}
+.chu a{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.chu{
+    display: inline-block;
+}
+.bi-khoa{
+    padding-left: 30%;
+    
+}
+.thongtin {
+    display: inline-block;
+    padding: 0 30px;
+}

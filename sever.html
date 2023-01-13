@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Of The King</title>
+    <link rel="shortcut icon" href="318092578_432559215594287_3817980827572877140_n.jpg">
+    <link rel="stylesheet" href="server.css">
+</head>
+<script src="hello.js">
+</script>
+<body class="nen" background="nen.jpg" >
+    <div class="trang-chu">
+        <div class="mau-chu">
+            <ul class="root">
+            <li><a href="">TRANG CHỦ</a></li>          
+            <li><a href="">THÔNG TIN SERVER</a>                
+                <ul class="submenu">
+                <li><a href="#">SỰ KIỆN</a></li>
+                <li><a href="#">GIFT CODE</a></li>
+                <li><a href="#">MÁY CHỦ</a></li>
+                <li><a href="https://discord.gg/6Wrz4evA">DISCORD</a></li>
+                <li><a href="https://m.me/j/AbYhi4qiDTf2hD9N/">MESSENGER</a></li>
+            </ul></li>
+            <li><a href="">BÁO CÁO NGƯỜI CHƠI</a>
+                <ul class="submenu">
+                  <li><a href="#">BÁO CÁO</a></li>
+                  <li><a href="khoa.html">TÀI KHOẢN BỊ KHÓA</a></li>
+                </ul>
+                  </li>
+            <li><a href="idex.html">ĐĂNG NHẬP</a>
+                <ul class="submenu">
+                    <li><a href="#">KHÔI PHỤC TÀI KHOẢN</a></li>
+                    <li><a href="#">CÁCH ĐĂNG NHẬP</a></li>
+                  </ul></li>           
+            </ul> 
+        </div>
+        </div>
+
+    <div class="image">      
+      <img class="imga" id="img" onclick="changeImage()" src="" alt="">
+    </div>
+    <script class="anh-dong">
+      var index = 1;
+      changeImage = function(){
+        var imgs = ["https://f9-zpcloud.zdn.vn/2432980057336638610/949cc89cb9c5629b3bd4.jpg","https://f8-zpcloud.zdn.vn/5180040106215647133/1c4b5747261efd40a40f.jpg","https://f8-zpcloud.zdn.vn/5753448897017592206/cce2f6e987b05cee05a1.jpg","https://f9-zpcloud.zdn.vn/4576729065130305040/78ca193e97674c391576.jpg","https://f8-zpcloud.zdn.vn/481921867932282807/4859e2a56cfcb7a2eeed.jpg","https://f8-zpcloud.zdn.vn/4663157105963720335/cefeec06625fb901e04e.jpg","https://f8-zpcloud.zdn.vn/2212410224596379802/d356fbb275ebaeb5f7fa.jpg","https://f9-zpcloud.zdn.vn/7019690824244889111/051e7efcf0a52bfb72b4.jpg","https://f9-zpcloud.zdn.vn/880317696836656085/a6bf1a5094094f571618.jpg" ];
+        document.getElementById('img').src = imgs[index];
+        index++;
+        if(index==9){
+          index = 0;
+        }
+      }
+      setInterval(changeImage,1000);
+    </script>
+                <div class="ip">
+                    <div class="text-ip">
+                        <a class="textt" style="color: rgb(48, 90, 128); ">
+                            <hr>
+                            Online
+                            <hr/>
+                            20/1000 Online 
+                            <hr/>
+                            IP:rules-vp.craft.ply.gg 
+                            <hr/>
+                            Phiên Bản: [1.19]
+                            <hr/>
+                        </a>
+                    </div>
+            </div>
+  </body>
+ 
+</html>
